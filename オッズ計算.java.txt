@@ -1,0 +1,10 @@
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("Š|‚¯‹à‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢");
+		int money = new java.util.Scanner(System.in).nextInt();
+		System.out.println("ƒIƒbƒY‚ð“ü—Í‚µ‚Ä‚­‚¾‚³‚¢");
+		double odds = new java.util.Scanner(System.in).nextDouble();
+		int after = (int) (money * odds);
+		System.out.println(after);
+	}
+}
